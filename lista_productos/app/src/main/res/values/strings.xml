@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PRA2</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_find">FindActivity</string>
+    <string name="add">Add</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="image">Image</string>
+    <string name="insert_item">Insert Item</string>
+    <string name="select_image">SELECT IMAGE</string>
+    <string name="lat_long">Latitud y longitud</string>
+    <string name="card_price">PRICE</string>
+    <string name="card_image">IMAGE</string>
+    <string name="card_description">DESCRIPTION</string>
+    <string name="card_title">PRODUCT</string>
+</resources>

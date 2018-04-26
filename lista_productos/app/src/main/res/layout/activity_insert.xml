@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.uoc.pra1.InsertActivity">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="0dp"
+            android:layout_height="150dip"
+            android:scaleType="fitCenter"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/select_image"
+            />
+
+        <Button
+            android:id="@+id/select_image"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/select_image" />
+
+
+        <TextView
+            android:id="@+id/price_label"
+            android:text="@string/price"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/select_image"
+            android:textAppearance="@android:style/TextAppearance.Holo.Small"/>
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="96dp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/price_label"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+
+        <TextView
+            android:id="@+id/name"
+            android:text="@string/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thumbnail"
+            android:textAppearance="@android:style/TextAppearance.Holo.Small"
+            />
+
+        <EditText
+            android:id="@+id/title"
+            android:minLines="1"
+            android:lines="1"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+        <TextView
+            android:id="@+id/description_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:text="@string/description"
+            android:textAppearance="@android:style/TextAppearance.Holo.Small"
+            />
+
+        <EditText
+            android:id="@+id/description"
+            android:minLines="3"
+            android:lines="3"
+            android:maxLines="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_label"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+        />
+
+        <TextView
+            android:id="@+id/lat_long"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            android:text="@string/lat_long"
+            android:textAppearance="@android:style/TextAppearance.Holo.Small"
+            />
+
+        <Button
+            android:id="@+id/insert_item"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lat_long"
+            android:layout_centerHorizontal="true"
+            android:text="@string/insert_item" />
+
+</RelativeLayout>
